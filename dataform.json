@@ -1,0 +1,8 @@
+{
+  "defaultSchema": "dataform",
+  "assertionSchema": "dataform_assertions",
+  "warehouse": "bigquery",
+  "defaultDatabase": "ohmspace-poc-v0",
+  "defaultLocation": "europe-west12"
+}
+    

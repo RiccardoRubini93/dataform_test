@@ -1,0 +1,15 @@
+config {
+    type: "operations",
+    disabled: true,
+    hasOutput: true,
+    dependencies: [],
+    schema: "bronze",
+    name: "thruster_bronze_poc"
+}
+
+
+LOAD DATA OVERWRITE
+  ${self()}
+FROM FILES ( format = 'CSV',
+    uris = ['gs://pocv0__raw_data/raw_data_consolidated/*'] 
+   )

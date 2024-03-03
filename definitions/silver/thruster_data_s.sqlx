@@ -1,0 +1,8 @@
+config {
+    type: "table",
+    description : 'Table in the silver layer containing cleaned data'
+}
+
+SELECT 
+DISTINCT *
+FROM ${ref('thruster_bronze_poc')} 

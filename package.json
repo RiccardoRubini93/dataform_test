@@ -1,0 +1,6 @@
+{
+  "name": "ohm_space_poc__dev",
+  "dependencies": {
+    "@dataform/core": "2.8.3"
+  }
+}
