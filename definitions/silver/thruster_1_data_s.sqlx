@@ -6,3 +6,4 @@ config {
 SELECT 
 DISTINCT *
 FROM ${ref('thruster_bronze_poc')} 
+where lower(thruster_id) like lower("%Thruster_1%")
